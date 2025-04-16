@@ -6,17 +6,18 @@ import org.slf4j.LoggerFactory;
 
 public class Feature1 {
 
+    String NOT_COVERED = "not covered";
+
     Logger logger = LoggerFactory.getLogger(Feature1.class);
 
     public void method1() {
-        System.out.println("not covered");
-        logger.info("not covered");
+        logger.info(NOT_COVERED);
     }
 
     public void method2() {
-        String bar = null;
-        if (bar.length() > 0) {
-            System.out.println("not covered");
+        String bar = "";
+        if (!bar.isEmpty()) {
+            logger.info(NOT_COVERED);
         }
     }
 }
