@@ -12,6 +12,28 @@ public class InternationalOrder {
         return quantity;
     }
 
+
+    public void processInternationalOrder(InternationalOrder order) {
+        // Identical common processing logic
+        // ...
+        calculateTotal();
+        // ...
+        applyDiscount();
+        // ...
+        handleInternationalTax();
+    }
+
+    private void handleInternationalTax() {
+    }
+
+    private void applyDiscount() {
+        
+    }
+
+    private void calculateTotal() {
+        
+    }
+
     @Override
     public boolean equals(Object other) {
         if (other == null) {

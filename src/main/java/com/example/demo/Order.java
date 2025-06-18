@@ -12,6 +12,22 @@ public class Order {
         return quantity;
     }
 
+    public void processOrder(Order order) {
+        // Common processing logic
+        // ...
+        calculateTotal();
+        // ...
+        applyDiscount();
+        // ...
+    }
+
+    private void applyDiscount() {
+    }
+
+    private void calculateTotal() {
+        
+    }
+
     @Override
     public boolean equals(Object other) {
         if (other == null) {
