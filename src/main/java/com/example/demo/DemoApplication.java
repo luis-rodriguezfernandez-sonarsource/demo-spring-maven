@@ -10,14 +10,35 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    public void methodA() {
+    public void method1() {
         // Some duplicated code here
         System.out.println("Hello");
         System.out.println("World");
         // more duplicated code
     }
 
-    public void methodB() {
+    public void method2() {
+        // Some duplicated code here
+        System.out.println("Hello");
+        System.out.println("World");
+        // more duplicated code
+    }
+
+    public void method3() {
+        // Some duplicated code here
+        System.out.println("Hello");
+        System.out.println("World");
+        // more duplicated code
+    }
+
+    public void method4() {
+        // Some duplicated code here
+        System.out.println("Hello");
+        System.out.println("World");
+        // more duplicated code
+    }
+
+    public void method5() {
         // Some duplicated code here
         System.out.println("Hello");
         System.out.println("World");
