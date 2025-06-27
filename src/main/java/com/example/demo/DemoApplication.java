@@ -10,4 +10,21 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
+    public void run() {
+        prepare("action1");   
+        execute("action1");
+        release("action1");
+    }
+
+    private void release(String action1) {
+    }
+
+    private void execute(String action1) {
+        
+    }
+
+    private void prepare(String action1) {
+        
+    }
+
 }
